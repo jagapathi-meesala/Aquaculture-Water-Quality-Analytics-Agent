@@ -1,0 +1,13 @@
+name: draft-response-guidance
+description: Draft conservative follow-up suggestions from findings.
+input_schema:
+  type: object
+  properties:
+    observations:
+      type: array
+      items:
+        type: object
+    thresholds:
+      type: object
+  required: [observations]
+  additionalProperties: true

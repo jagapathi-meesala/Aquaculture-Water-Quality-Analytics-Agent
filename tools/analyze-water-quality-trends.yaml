@@ -1,0 +1,13 @@
+name: analyze-water-quality-trends
+description: Summarize chronological changes by pond and parameter.
+input_schema:
+  type: object
+  properties:
+    observations:
+      type: array
+      items:
+        type: object
+    thresholds:
+      type: object
+  required: [observations]
+  additionalProperties: true

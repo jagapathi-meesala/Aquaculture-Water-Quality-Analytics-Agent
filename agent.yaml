@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: aquaculture-water-quality-analytics-agent
+version: "1.0.0"
+description: Analyze supplied aquaculture water-quality observations, flag threshold excursions and data-quality issues, and produce explainable review guidance.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - water-quality-review
+  - trend-analysis
+  - response-planning
+tools:
+  - validate-water-quality-data
+  - analyze-water-quality-trends
+  - draft-response-guidance
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - aquaculture
+  - water-quality
+  - analytics
+  - monitoring

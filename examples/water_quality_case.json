@@ -1,0 +1,54 @@
+{
+  "site_name": "Demo pond",
+  "thresholds": {
+    "dissolved_oxygen": {
+      "min": 5.0,
+      "max": 12.0
+    },
+    "temperature": {
+      "min": 20,
+      "max": 32
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8.5
+    }
+  },
+  "observations": [
+    {
+      "pond_id": "Pond-A",
+      "timestamp": "2026-10-14T08:00:00",
+      "parameter": "dissolved_oxygen",
+      "value": 6.4,
+      "unit": "mg/L"
+    },
+    {
+      "pond_id": "Pond-A",
+      "timestamp": "2026-10-14T12:00:00",
+      "parameter": "dissolved_oxygen",
+      "value": 4.2,
+      "unit": "mg/L"
+    },
+    {
+      "pond_id": "Pond-A",
+      "timestamp": "2026-10-14T08:00:00",
+      "parameter": "temperature",
+      "value": 28.1,
+      "unit": "degC"
+    },
+    {
+      "pond_id": "Pond-A",
+      "timestamp": "2026-10-14T12:00:00",
+      "parameter": "temperature",
+      "value": 29.3,
+      "unit": "degC"
+    },
+    {
+      "pond_id": "Pond-A",
+      "timestamp": "2026-10-14T12:00:00",
+      "parameter": "pH",
+      "value": 7.4,
+      "unit": "pH"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name: validate-water-quality-data
+description: Validate supplied water-quality observation records and thresholds.
+input_schema:
+  type: object
+  properties:
+    observations:
+      type: array
+      items:
+        type: object
+    thresholds:
+      type: object
+  required: [observations]
+  additionalProperties: true
